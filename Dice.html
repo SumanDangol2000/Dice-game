@@ -11,19 +11,31 @@
     <h1 class="wel">welcome!</h1>
     <div class="container">
       <h1 id="refresh">Refresh me</h1>
-
-      <div class="dice">
+      <div id="player">
         <p>Player 1</p>
-        <img src="images/dice1.png" alt="dice" />
-      </div>
-
-      <div class="dice">
         <p>Player 2</p>
-        <img src="images/dice2.png" alt="dice" />
+      </div>
+      <div id="main_div">
+        <div class="div_left dice_container">
+          <div class="gif">
+            <img src="" alt="" />
+          </div>
+          <div class="dice">
+            <img src="images/dice1.png" alt="dice" />
+          </div>
+        </div>
+        <div class="div_right dice_container">
+          <div class="dice">
+            <img src="images/dice2.png" alt="dice" />
+          </div>
+          <div class="gif">
+            <img src="" alt="" />
+          </div>
+        </div>
       </div>
     </div>
 
-    <button id="clickMe" onclick="clickMe()">Throw your Dice</button>
+    <button id="clickMe" onclick="clickMe()">Roll Me</button>
 
     <script src="diceJs.js"></script>
   </body>
