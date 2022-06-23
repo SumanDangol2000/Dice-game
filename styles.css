@@ -1,0 +1,41 @@
+ body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  background-color: rgb(179, 247, 224);
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.wel {
+  padding-top: 10px;
+  font-size: 70px;
+}
+
+.container {
+  background-color: aliceblue;
+  display: block;
+  position: relative;
+  /* top: 100px; */
+  box-sizing: border-box;
+}
+
+.dice {
+  width: 25%;
+  display: inline-block;
+  margin: 50px;
+}
+img {
+  height: 200px;
+  width: 200px;
+}
+
+#clickMe{
+  margin-top: 50px;
+  padding:8px 16px;
+  font-size: larger;
+  background-color: aliceblue;
+}
+
